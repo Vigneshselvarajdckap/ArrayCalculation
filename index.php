@@ -9,8 +9,8 @@ $arr =
     [12,2,22,8,-1]    // ans => 0
 ];
 
-$res = [];
-$maximum = [];
+$res = []; // show in all total values.
+$maximum = []; // show the maximum value in results.
 for ($i=0; $i <= count($arr)-1; $i++) 
 {
     $check = false;
